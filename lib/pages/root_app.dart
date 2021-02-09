@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:untitled1/pages/home_page.dart';
 import 'package:untitled1/theme/colors.dart';
 
 class RootApp extends StatefulWidget {
@@ -21,13 +22,7 @@ class _RootAppState extends State<RootApp> {
 
   Widget getBody() {
     List <Widget>page = [
-      Center(
-        child: Text(
-          "Home Page",
-          style: TextStyle(
-              fontSize: 20, fontWeight: FontWeight.bold, color: white),
-        ),
-      ),
+      homePage(),
       Center(
         child: Text(
           "Search Page",

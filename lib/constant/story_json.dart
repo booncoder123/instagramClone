@@ -6,7 +6,7 @@ String name = "panhchaneath_ung";
 List stories = [
   {
     "id" : 1,
-    "img" : "https://instagram.fpnh11-1.fna.fbcdn.net/v/t51.2885-19/s320x320/103844074_2633793416842630_7518868002822704742_n.jpg?_nc_ht=instagram.fpnh11-1.fna.fbcdn.net&_nc_ohc=ZkckRp3FZJcAX8uNQAJ&oh=09cbe30263f350fa889e207c8598e67a&oe=5F42B4BA",
+    "img" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1EaO1ZJIhX5U0hZJmxPB2-5ul6p85PZnBTg&usqp=CAU",
     "name" : "sonitakhoun"
   },
   {
