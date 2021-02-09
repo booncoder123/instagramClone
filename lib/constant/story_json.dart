@@ -1,5 +1,5 @@
 // user prfile
-String profile = "https://scontent.fpnh11-1.fna.fbcdn.net/v/t1.0-9/107145899_3178408902202993_24388511045389010_o.jpg?_nc_cat=110&_nc_sid=8bfeb9&_nc_eui2=AeF3EhjosJD-_gO_neWwSanA6NQBui52KdDo1AG6LnYp0M-mJAjKGrzLDUuzgc4YAY9XkArsbeUj0Ix5ZK1aZ6Mm&_nc_ohc=Pv7feBcQk0sAX_8xXbd&_nc_ht=scontent.fpnh11-1.fna&oh=d9d68a0a2dba1f2e7a22897914a83fe0&oe=5F3F1C58";
+String profile = "https://local21news.com/resources/media/89dbc025-ba45-4d7c-91f5-66e33f313236-large3x4_ObamaEnvironment_Town.jpg?1591172611684";
 String name = "panhchaneath_ung";
 
 // stories 
@@ -11,22 +11,22 @@ List stories = [
   },
   {
     "id" : 2,
-    "img" : "https://instagram.fpnh11-1.fna.fbcdn.net/v/t51.2885-19/s320x320/53868419_327116881276842_1562862290330451968_n.jpg?_nc_ht=instagram.fpnh11-1.fna.fbcdn.net&_nc_ohc=uznUqwaKIy0AX8_27ay&oh=1f0a0031c6cde7556509249001a578e2&oe=5F427349",
+    "img" : "https://images.squarespace-cdn.com/content/v1/570e58a5f85082287b0f4b1b/1533052913296-FPM26F1C9XY02TKJJ9TK/ke17ZwdGBToddI8pDm48kOggE0Ch6pMGalwtLMqzsSB7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1Ufo5RWkg_J4of0jUNHaDHx6pZKBvpVYzidBWCapg0tuoMuEaB2HPGSYDV-11UTcW2g/babyplaywolftrap_7-20-16_59.jpg",
     "name" : "babysweetiepie"
   },
   {
     "id" : 3,
-    "img" : "https://instagram.fpnh11-1.fna.fbcdn.net/v/t51.2885-19/s320x320/66267487_1271293943050252_6667827703590158336_n.jpg?_nc_ht=instagram.fpnh11-1.fna.fbcdn.net&_nc_ohc=wFH8Wyze7RMAX9jvdjJ&oh=f7cc38276d8fce5410b3f53bb14595d6&oe=5F4384F7",
+    "img" : "https://riseupeight.org/wp-content/uploads/2016/05/nick-vujicic-inspirational-people.jpg",
     "name" : "whereavygoes"
   },
   {
     "id" : 4,
-    "img" : "https://images.unsplash.com/photo-1525879000488-bff3b1c387cf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+    "img" :"https://www.ams.ubc.ca/wp-content/uploads/2019/02/Cristina-Ilnitchi_candidate-for_VP-external_headshot-320x320.jpg",
     "name" : "collins_lesulie"
   },
   {
     "id" : 5,
-    "img" : "https://images.unsplash.com/photo-1517070208541-6ddc4d3efbcb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+    "img" : "https://www.ams.ubc.ca/wp-content/uploads/2019/05/Cole_Evans-320x320.jpg",
     "name" : "tyler_nix"
   }
 ];
