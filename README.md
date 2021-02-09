@@ -1,7 +1,13 @@
 # Flutter Practicing 
 ### Instagram Cloning
 ```  
-on process...
+day 1: What i learn?
+- gradient control
+- BoxDecoration
+- NetworkImage
+- IndexedStack
+- InkWell
+- List.generate
 
 ```
 
