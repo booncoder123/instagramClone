@@ -4,6 +4,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:line_awesome_icons/line_awesome_icons.dart';
 import 'package:untitled1/constant/post_json.dart';
 import 'package:untitled1/constant/story_json.dart';
+import 'package:untitled1/pages/postItem.dart';
 import 'package:untitled1/theme/colors.dart';
 
 import 'StoryItem.dart';
@@ -19,6 +20,24 @@ class _homePageState extends State<homePage> {
     return getBody();
   }
 
+  @override
+  void initState() {
+    super.initState();
+    print("init state");
+  }
+
+  @override
+  void deactivate() {
+    super.deactivate();
+    print("deactive state");
+  }
+
+  @override
+  void dispose() {
+    super.dispose();
+    print("dispose state");
+  }
+
   Widget getBody() {
     return SingleChildScrollView(
       scrollDirection: Axis.vertical,
@@ -29,7 +48,8 @@ class _homePageState extends State<homePage> {
             child: Row(
               children: <Widget>[
                 Padding(
-                  padding: const EdgeInsets.only(right: 20, left: 15, bottom: 10),
+                  padding:
+                      const EdgeInsets.only(right: 20, left: 15, bottom: 10),
                   child: Column(
                     children: [
                       Container(
@@ -93,103 +113,9 @@ class _homePageState extends State<homePage> {
           ),
           Column(
             children: <Widget>[
-              Column(
-                children: <Widget>[
-                  Padding(
-                    padding:
-                    const EdgeInsets.symmetric(horizontal: 15, vertical: 10),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: <Widget>[
-                        Row(
-                          children: <Widget>[
-                            Container(
-                              width: 40,
-                              height: 40,
-                              decoration: BoxDecoration(
-                                  shape: BoxShape.circle,
-                                  image: DecorationImage(
-                                      image: NetworkImage(posts[0]['profileImg']),
-                                      fit: BoxFit.cover)),
-                            ),
-                          ],
-                        ),
-                        Text(
-                          posts[0]['name'],
-                          style: TextStyle(
-                              color: white,
-                              fontSize: 15,
-                              fontWeight: FontWeight.w500),
-                        ),
-                        SizedBox(
-                          width: 120,
-                        ),
-                        Icon(
-                          LineAwesomeIcons.ellipsis_h,
-                          color: white,
-                        )
-                      ],
-                    ),
-                  ),
-                  SizedBox(
-                    height: 12,
-                  ),
-                  Container(
-                    height: 400,
-                    decoration: BoxDecoration(
-                        image: DecorationImage(
-                            image: NetworkImage(posts[0]['postImg']),
-                            fit: BoxFit.cover)),
-                  ),
-                  SizedBox(
-                    height: 12,
-                  ),
-                  Padding(
-                    padding: const EdgeInsets.only(left: 15, right: 15, top: 3),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: <Widget>[
-                        Row(
-                          children: <Widget>[
-                            SvgPicture.asset(
-                              "assets/images/loved_icon.svg",
-                              width: 27,
-                            ),
-                            SizedBox(
-                              width: 20,
-                            ),
-                            SvgPicture.asset(
-                              "assets/images/comment_icon.svg",
-                              width: 27,
-                            ),
-                            SizedBox(
-                              width: 20,
-                            ),
-                            SvgPicture.asset(
-                              "assets/images/message_icon.svg",
-                              width: 27,
-                            )
-                          ],
-                        ),
-                        SizedBox(
-                          width: 20,
-                        ),
-                        SvgPicture.asset(
-                          "assets/images/save_icon.svg",
-                          width: 27,
-                        ),
-                      ],
-                    ),
-                  ),
-                  SizedBox(
-                    height: 12,
-                  ),
-                  RichText(text: TextSpan(children: [TextSpan(text: "Liked by")]))
-                ],
-              )
+              postItem(),
             ],
           )
-
         ],
       ),
     );
