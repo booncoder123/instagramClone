@@ -1,18 +1,5 @@
 # Flutter Practicing 
 ### Instagram Cloning
-```  
-day 1: What i learn?
-- gradient control
-- BoxDecoration
-- NetworkImage
-- IndexedStack
-- InkWell
-- List.generate
-
-```
-
-
-
 
 Thank assets and design From Sopheamen Vana channel!
 
